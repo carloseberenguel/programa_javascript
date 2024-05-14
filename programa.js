@@ -41,7 +41,7 @@ let media = medianota
 
 if (media >=7){
     console.log('Parabéns você foi Aprovada(o) :)')
-} else if ( media >=5){
+} else if ( media <=5){
     console.log('Hum, infelizmente você está de Recuperação :|')
 }else {
     console.log('Sinto informar, mas você está Reprovada(o) :(')
